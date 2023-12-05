@@ -1,7 +1,7 @@
 ﻿# ListaTarefas
 # Configurando ambiente
 
-py -m venv .venv
+py -m venv myvenv
 
 .venv/Scripts/activate
 
