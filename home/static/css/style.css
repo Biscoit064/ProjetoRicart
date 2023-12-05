@@ -1,0 +1,81 @@
+.container-fluid{
+    padding: 0;
+
+}
+
+/*navbar*/
+.navbar{
+    border-bottom: 1px solid #333;
+}
+.navbar-nav{
+    margin: auto;
+    letter-spacing: 1px;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+.nav-link{
+    font-size: 20px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/*lista de tarefas*/
+.btn{
+    display: inline-block;
+}
+
+.search-div{
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.list-div{
+    padding: 0;
+}
+.task-list{
+    padding-left: 0;
+}
+
+.task-itens{
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 9px;
+    border: 0.5px solid #333;
+}
+.task-itens span{
+    margin: 10px;
+}
+
+.fa-trash, .fa-edit{
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+    margin: 10px;
+}
+.fa-edit{
+    color: rgb(54, 54, 233);
+}
+.fa-trash {
+    color: rgb(233, 54, 54);
+}
+
+/* rodapé */
+footer{
+    background-color: #333;
+    height: 200px;
+    border-top: 2px solid #000;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
